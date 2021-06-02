@@ -11,11 +11,13 @@ class HomePage extends StatelessWidget {
                 height: 103,
                 width: 103,
                 color: Colors.blueAccent,
-                child: Container(
-                    margin: EdgeInsets.all(10),
-                    height: 50,
-                    width: 50,
-                    color: Colors.yellow,
-                    child: Text('data', style: TextStyle(fontSize: 26))))));
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    Text('data'),
+                    Text('data'),
+                  ],
+                ))));
   }
 }
